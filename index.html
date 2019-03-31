@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en-us">
+
+<head>
+  <meta charset="UTF-8">
+  <!--add meta viewport link-->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=yes">
+
+  <title>Psychic Game</title>
+
+<!--Use bootstrap link?-->
+<link rel="stylesheet" href="assets/css/reset.css">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+<link rel="stylesheet" href="assets/css/style.css"> 
+<link href='https://fonts.googleapis.com/css?family=Almendra' rel='stylesheet'>
+
+<!--Include links style.css sheet if nessecary and include rest.css above style sheet -->
+
+</head>
+
+<body>
+
+
+<!--Display the following text 
+#of Wins, #of Losses, #of Guesses Left, and your Guesses So Far:-->
+
+<!--Use a div <p id to contain the game, 
+or pull from bootstrap and make a container w/ rows, collums, id's etc.-->
+
+<div class="container">
+<div>
+    <!--<img src="assets/images/Room_of_fate.png" class="img-fluid" alt="Responsive image">-->
+    <h1 id="name-of-game">The Psychic Game</h1>
+    <p id="instructions-text">Guess the letter I am thinking. Press any letter key, but remember you get only 9 guesses.</p>
+    <p id="wins-text">Wins:</p>
+    <p id="losses-text">Losses:</p>
+    <p id="guesses-left">Guesses Left:</p>
+    <p id="userchoice-text">Your Guesses So Far:</p>
+</div>
+</div>
+
+
+
+<script src="assets/javascript/game.js"></script>
+
+
+</body>
+
+</html>

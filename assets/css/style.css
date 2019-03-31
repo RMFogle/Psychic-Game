@@ -1,0 +1,48 @@
+body {
+    font-family: 'Almendra', 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; 
+    font-size: 22px;
+    background: url("../images/Room_of_fate.png"); 
+}
+
+* { 
+    box-sizing: border-box; 
+}
+
+.container {
+    position: relative; 
+    text-align: center; 
+}
+
+#name-of-game {
+    top: 20px;
+    color: goldenrod; 
+    text-shadow: 10px; 
+}
+
+#instructions-text {
+    top: 70px; 
+    color: powderblue; 
+    text-shadow: 10px; 
+}
+
+#wins-text {
+    top: 120px;  
+    color: powderblue; 
+}
+
+#losses-text {
+    top: 160px;
+    color: powderblue; 
+
+}
+
+#guesses-left {
+    top: 200px;
+    color: powderblue; 
+
+}
+
+#userchoice-text {
+    top: 240px;
+    color: powderblue; 
+}
